@@ -33,7 +33,8 @@ export default function Login(params) {
     return (<>
         <div className='container'>
             <div className='form'>
-                <h2>Nitin's Facebook</h2>
+                <h2>Nitin's Facebook </h2>
+                <h6>changes directly in main branch</h6>
                 <h3>Log in</h3>
                 <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Enter username" />    <br />
                 <input value={password} onChange={e => setPassword(e.target.value)} placeholder="password" type="password" />    <br />
